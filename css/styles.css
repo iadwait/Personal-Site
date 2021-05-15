@@ -1,0 +1,166 @@
+/*****************TAG SELECTORS**************/
+body {
+	margin: 0; /* All 4 set to 0*/
+	/*margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;*/
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #40514E;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 50px auto 0px auto;
+	font-family: 'Sacramento', cursive;
+	color: #66BFBF;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 25px;
+	color: #66BFBF;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+h3 {
+	color: #11999E;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+hr {
+	border: dotted #a9a9a9 6px;	
+	border-bottom: none;
+	width: 4%;
+	margin: 50px auto;
+}
+
+a {
+	color: #11999E;
+}
+
+a:hover {
+	color: white;
+}
+
+p {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 2;	
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.topContainer {
+	background-color: #E4F9F5;
+	position: relative;
+	padding-top: 90px;
+}
+
+.middle-container {
+	margin: 100px 0;
+}
+
+.bottom-container {
+	background-color: #66BFBF;
+}
+
+.top-cloud {
+	position: absolute;
+	top: 40px;
+	right: 300px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 320px;
+	bottom: 270px;
+}
+
+.programmer {
+	margin-top: 0;
+}
+
+.intro {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.skill-row {
+	/*background-color: red;*/
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	font-size: 14px;
+}
+
+.img_apple_logo {
+	width: 25%;
+	margin-right: 30px;
+	float: left;
+}
+
+.img_webdev_logo {
+	width: 25%;
+	margin-left: 30px;
+	float: right;
+}
+
+.copyright {
+	color: #EAF6F6;
+	font-size: 12px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 64px;
+}
+
+.footer-link {
+	color: #11999E;
+	margin: 20px 10px;
+	position: relative;
+	top: 40px;
+}
+
+.SkillDesc {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.iOS-Title {
+	padding-top: 25px;
+}
+
+.btnContactMe {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnContactMe:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-message {
+	width: 40%;
+	margin: 40px auto 60px;
+}
